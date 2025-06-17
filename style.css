@@ -187,7 +187,7 @@ position: relative;
 
 .about .row .content p {
     margin-bottom: 0.8rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 100;
     line-height: 1;
 }
@@ -242,6 +242,31 @@ position: relative;
 .navbar .navbar-nav a:hover::after{
     transform: scaleX(0.2);
 }
+
+.about .row {
+    flex-wrap: wrap;
+}
+
+.about .row .about-img img  {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about .row .content {
+    padding: 0;
+}
+
+.about .row .content h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.about .row .content p {
+    font-size: 1.6rem;
+}
+
+
 
 }
 
