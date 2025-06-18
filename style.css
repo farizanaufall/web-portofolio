@@ -15,12 +15,19 @@ text-decoration: none;
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
 
 body {
      font-family: "Exo 2", sans-serif;
     background-color: var(--bg);
     color: white;
-    min-height: 5000px;
 }
 
 
@@ -278,6 +285,49 @@ position: relative;
     background-color: var(--primary);
     cursor: pointer;
 }
+
+/* footer */
+footer {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1rem 0 3rem;
+    margin-top: 3rem;
+}
+
+footer .socials {
+    padding: 1rem 0;
+}
+
+footer .socials a {
+    color: white;
+    margin: 1rem;
+}
+
+footer .socials a:hover, 
+footer .links a:hover{ 
+    color: var(--bg);
+}
+
+footer .links {
+    margin-bottom: 1.4rem;
+}
+
+footer .links a {
+    color: white;
+    padding: 0.7rem 1rem;
+}
+
+footer.credit {
+    font-size: 0.8rem;
+}
+
+footer .credit a {
+    color: var(--bg);
+    font-weight: 700;
+}
+
+
+
 
 /* media queris */
 
