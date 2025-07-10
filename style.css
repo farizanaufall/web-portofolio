@@ -282,6 +282,10 @@ mask-image: linear-gradient(rgba( 0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
 
 .about .row .about-img img{
     width: 100%;
+    -webkit-mask-image: url(coffee-icon-svgrepo-com.svg);
+    -webkit-mask-size: 50%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center:
 }
 
 .about .row .content {
